@@ -1,4 +1,4 @@
-# AIFitness
+# AIFitness App
 
 Behold My Awesome Project!
 

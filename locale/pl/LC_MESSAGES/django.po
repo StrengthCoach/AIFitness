@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-15 11:00+0100\n"
+"POT-Creation-Date: 2024-01-16 11:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -278,10 +278,6 @@ msgid ""
 "mail address</a>."
 msgstr ""
 
-#: .\aifitness\templates\base.html:61
-msgid "Home"
-msgstr ""
-
 #: .\aifitness\templates\base.html:68
 msgid "My Profile"
 msgstr ""
@@ -302,16 +298,80 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
-#: .\aifitness\users\forms.py:28 .\aifitness\users\tests\test_forms.py:36
+#: .\aifitness\users\forms.py:29 .\aifitness\users\tests\test_forms.py:36
 msgid "This email has already been taken."
 msgstr ""
 
+#: .\aifitness\users\forms.py:39
+msgid "First name"
+msgstr ""
+
+#: .\aifitness\users\models.py:10
+msgid "Male"
+msgstr ""
+
+#: .\aifitness\users\models.py:11
+msgid "Female"
+msgstr ""
+
+#: .\aifitness\users\models.py:12
+msgid "Other"
+msgstr ""
+
+#: .\aifitness\users\models.py:16
+msgid "beginner"
+msgstr ""
+
 #: .\aifitness\users\models.py:17
+msgid "intermediate"
+msgstr ""
+
+#: .\aifitness\users\models.py:18
+msgid "advanced"
+msgstr ""
+
+#: .\aifitness\users\models.py:30
 msgid "Name of User"
 msgstr ""
 
-#: .\aifitness\users\models.py:20
+#: .\aifitness\users\models.py:31
+msgid "First name of User"
+msgstr ""
+
+#: .\aifitness\users\models.py:32
+msgid "Last name of User"
+msgstr ""
+
+#: .\aifitness\users\models.py:33
 msgid "email address"
+msgstr ""
+
+#: .\aifitness\users\models.py:35
+msgid "Date of birth"
+msgstr ""
+
+#: .\aifitness\users\models.py:36
+msgid "Gender"
+msgstr ""
+
+#: .\aifitness\users\models.py:37
+msgid "Height"
+msgstr ""
+
+#: .\aifitness\users\models.py:38
+msgid "Weight"
+msgstr ""
+
+#: .\aifitness\users\models.py:39
+msgid "Proficiency level"
+msgstr ""
+
+#: .\aifitness\users\models.py:40
+msgid "Powerlifting section"
+msgstr ""
+
+#: .\aifitness\users\models.py:41
+msgid "Number of months of experience"
 msgstr ""
 
 #: .\aifitness\users\tests\test_views.py:67 .\aifitness\users\views.py:23

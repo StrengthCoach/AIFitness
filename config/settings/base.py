@@ -318,6 +318,8 @@ SOCIALACCOUNT_ADAPTER = "aifitness.users.adapters.SocialAccountAdapter"
 # https://django-allauth.readthedocs.io/en/latest/forms.html
 SOCIALACCOUNT_FORMS = {"signup": "aifitness.users.forms.UserSocialSignupForm"}
 
+SOCIALACCOUNT_LOGIN_ON_GET = True
+SOCIALACCOUNT_EMAIL_AUTHENTICATION_AUTO_CONNECT = True
 
 # Your stuff...
 # ------------------------------------------------------------------------------

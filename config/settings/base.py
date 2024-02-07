@@ -80,10 +80,12 @@ THIRD_PARTY_APPS = [
     "django_celery_beat",
     "bootstrap_datepicker_plus",
     "django_bootstrap5",
+    "sorl.thumbnail",
 ]
 
 LOCAL_APPS = [
     "aifitness.users",
+    "aifitness.workouts",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
